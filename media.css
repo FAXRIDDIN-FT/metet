@@ -1,0 +1,40 @@
+@media (max-width: 1000px) {
+    
+}
+@media (max-width:800px){
+    .card_body{
+        gap: 14px;
+    }
+    .text_title{
+        font-size: 25px;
+    }
+}
+@media (max-width:700px) {
+ .navbar_item{
+    display: none;  
+ } 
+ .hero_text h1 {
+    font-size: 34px;
+ }  
+ .card_body{
+    grid-template-columns: repeat(2 , 1fr);
+ }
+ .password_wrapper{
+    grid-template-columns: repeat(1,1fr);
+ }
+ .password_text{
+    padding: 20px 20%;
+    text-align: center;
+ }
+ .text_btn{
+  margin-left: 30%;
+ }
+}
+@media (max-width: 500px) {
+    .hero_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .card_body{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

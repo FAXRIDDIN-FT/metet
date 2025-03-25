@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1152px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.navbar {
+    padding: 21px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar_text {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar_item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar_btn {
+    background: #4CAF4F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 9px 22px;
+    border-radius: 3px;
+    gap: 10px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.hero {
+    background: #F5F7FA;
+}
+
+.hero_wrapper {
+    display: grid;
+    padding-top: 112px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 30px;
+    gap: 30px;
+
+}
+
+.hero_text h1 {
+    font-size: 44px;
+    font-weight: 600;
+    color: #4D4D4D;
+    padding-bottom: 15px;
+}
+
+.hero_text h1 span {
+    color: #4CAF4F;
+
+}
+
+.hero_text p {
+    color: #717171;
+    padding-bottom: 20px;
+}
+
+.hero_btn {
+    background: #4CAF4F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 9px 22px;
+    border-radius: 3px;
+    gap: 10px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.hero_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients_wrapper {
+    padding-top: 27px;
+}
+
+.clients_text{
+    text-align: center;
+
+}
+.clients_text h2{
+    color: #4D4D4D;
+    font-size: 25px;
+    font-weight: 600;  
+}
+.clients_text p{
+    padding-top: 10px;
+    color: #717171;
+}
+.clients_img{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-top: 50px;
+}
+.card_text{
+    text-align: center; 
+}
+.card_text h2{
+    color: #4D4D4D;
+    font-size: 25px;
+    font-weight: 600;  
+}
+.card_text p{
+    padding-top: 10px;
+    color: #717171;
+}
+.card_body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 60px;
+    gap: 30px;
+   
+}
+.card_img{
+    height: 60px;
+}
+.card_item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #dddddd8d;
+    padding: 10px 6px;
+}
+.item_title{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #4D4D4D;
+}
+.item_text{
+    color: #717171;
+    font-size: 12px;
+}
+.password_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 90px;
+}
+.password_img img{
+   width:100%;
+   
+}
+.password_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password_text{
+   padding-top: 150px;
+}
+.text_title{
+    font-size: 30px;
+    color: #4D4D4D;
+}
+.text_item{
+    color: #717171;
+    font-size: 14px;
+    max-width: 400px;
+}
+.text_btn{
+    background: #4CAF4F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 9px 22px;
+    border-radius: 3px;
+    gap: 10px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
