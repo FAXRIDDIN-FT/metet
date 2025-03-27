@@ -415,3 +415,34 @@ a {
     color: #fff;
     font-family: "Inter", sans-serif;  
 }
+.foot{
+    color: #fff;
+    background: #263238;
+    padding: 30px 10px;
+    margin-top: 20px;
+}
+.foot_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.inp{
+    background: #73747654;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    border-radius: 8px;
+
+}
+.foot_text{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.foot_item h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.foot_item p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F7FA;
+}
