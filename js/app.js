@@ -1,39 +1,58 @@
-{ //masala 1
-    function createUser(name, age) {
-        return { name, age, boolean: false };
+{ // masala 1
+    let i = 1
+    function foo() {
+        if (i <= 10) {
+            console.log(i);
+            i++
+            foo()
+        }
     }
-    console.log(createUser("Ali", 25));
+    foo()
 }
-{//masala 2
-    function raqam(...numbers) {
-        return numbers.reduce((sum, num) => sum + num, 0);
+{ // masala 2
+    let i = 10
+    function foo() {
+        if (i <= 100) {
+            console.log(i);
+            i += 10
+            foo()
+        }
     }
-    console.log(raqam(3, 4, 6, 2));
+    foo()
 }
 { // masala 3
-    function malumot(user) {
-        const { name, age } = user;
-        return `Name: ${name}, Age: ${age}`;
+    let i = 0
+    let title = 0
+    function foo() {
+        if (i <= 10) {
+            title += i
+            i++
+            foo()
+        }
     }
-    console.log(malumot({ name: "Faxriddin", age: 20 }));
+    foo()
+    console.log(title);
 }
-{ // masala 4
-    function objectToArray(obj) {
-        return Object.entries(obj);
+{
+    let i = 1
+    let son = 10
+    let name = "laylo"
+    function foo() {
+        if (i <= son) {
+            console.log(name);
+            i++
+            foo()
+        }
     }
-    console.log(objectToArray({ name: "laziz", age: 15 }));
+    foo()
 }
-{ // masala 5
-    function getKeysAndValue(obj) {
-        return Object.keys(obj);
+{
+    let a = 2
+    let n = 2 
+    function daraja(a, n) {
+        if (n === 0) 
+        return 1; 
+        return a * daraja(a, n - 1); 
     }
-    console.log(getKeysAndValue({ a: 1, b: 2, c: 3 }));
-}
-{ // masala 6
-    function sumPositiveValues  (obj) {
-        return Object.values(obj)
-            .filter(value => value > 0)
-            .reduce((sum, num) => sum + num, 0);
-    }
-    console.log(sumPositiveValues({ a: -5, b: 10, c: 15 }));
+    console.log(daraja(a, n));
 }
